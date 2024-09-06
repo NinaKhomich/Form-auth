@@ -48,10 +48,12 @@
 }
 
 .form__submit-btn:hover {
-  opacity: .6;
+  box-shadow: 2px 1px 5px #22272e;
 }
 
 .form__submit-btn:disabled {
+  box-shadow: none;
+  opacity: .6;
   cursor: default;
 }
 
